@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000; /* Set the background color to dark black */
+    color: #fff; /* Set font color to white */
+    padding: 20px;
+}
+
+h1 {
+    color: #fff; /* Set font color to white */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #111; /* Set the table background color to dark gray */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Set font color to white */
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #222; /* Set the even rows background color to a slightly lighter black */
+}
+
+table tr:hover {
+    background-color: #333; /* Set the hover background color to an even lighter black */
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
